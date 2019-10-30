@@ -1,0 +1,7 @@
+<div>
+  <button (click)="onStartTimerFunc()">Start</button>
+  <button (click)="onStopFunc()">Stop</button>
+  <button (click)="onResetFunc()">Reset</button>
+</div>
+<app-display-component [value1]="counterValue1$ | async" [value2]="counterValue2$ | async">
+</app-display-component>
